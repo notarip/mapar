@@ -1,5 +1,13 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+
+<%
+
+	String s = new String("Hola a todos");
+
+
+%>
+
+<h2><%=s %></h2>
 </body>
 </html>
